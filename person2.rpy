@@ -5,16 +5,16 @@ label parameter_1_2:
     menu:
         "Choose a Dominant Personality Trait"
 
-        "Silly":
+        "Silly, with a penchant for wearing socks with sandals. Neutral otherwise.":
             $ person_type1 += 1
             jump parameter_2_2
-        "Genius":
+        "Freaky and weird.":
             $ person_type2 += 1
             jump parameter_2_2
-        "Jovial":
+        "Jovial and happy-go-lucky book worm.":
             $ person_type1 += 1
             jump parameter_2_2
-        "Serious":
+        "Serious on the outside, but playful on the inside.":
             $ person_type2 += 1
             jump parameter_2_2
 
@@ -22,15 +22,15 @@ label parameter_2_2:
     menu:
         "How sociable is this person?"
 
-        "Friendly and Promiscuous":
+        "Friendly to people who commit fashio faux pas. Completely neutral towards people with dress sense.":
             $ person_type2 += 1
             jump parameter_3_2
 
-        "Easily Manipulated":
+        "Potentially popular when they remember to eat one serving of legumes per week. Otherwise, only slightly popular.":
             $ person_type2 += 1
             jump parameter_3_2
 
-        "Socially Awkward":
+        "Anxious if they are at a train station due to trauma brought on by a public access cartoon about anthropomorphic trains":
             $ person_type2 += 1
             jump parameter_3_2
 
@@ -38,10 +38,10 @@ label parameter_3_2:
     menu:
         "Is this person physically active?"
 
-        "Constantly":
+        "Constantly lifting weights incorrectly, resulting in physical injury.":
             $ person_type1 += 1
 
-        "Most of the time":
+        "Most of the time they are running away from their problems. To do this, they literally run. Extemely sweaty.":
             $ person_type2 += 1
 
     "Calculating data..."
@@ -87,6 +87,6 @@ label lifetime2:
     "Data tab updated."
     menu:
         "Generate Another Person":
-            jump parameter_1_2
+            jump parameter_1_3
         "Watch again":
-            jump lifetime1
+            jump lifetime2
