@@ -10,11 +10,14 @@ image bg pp office = Movie(size=(1920, 1080), play="images/bg pp office.webm", l
 image bg desk = Movie(size=(1920, 1080), play="images/bg desk.webm", loop=True)
 image bg lifespan1 = Movie(size=(1920, 1080), play="images/bg lifespan1.webm", loop=False)
 image bg lifespan2 = Movie(size=(1920, 1080), play="images/bg lifespan2.webm", loop=False)
+image bg lifespan3 = Movie(size=(1920, 1080), play="images/bg lifespan3.webm", loop=False)
 #People
 image p101 = "images/p101.png"
 image p102 = "images/p102.png"
 image p201 = "images/p201.png"
 image p202 = "images/p202.png"
+image p301 = "images/p301.png"
+image p302 = "images/p302.png"
 
 define mc = Character("The People Pleaser (You)", color="#c8c8c8")
 define g = Character("The LORD", color="#9f4a2e")
