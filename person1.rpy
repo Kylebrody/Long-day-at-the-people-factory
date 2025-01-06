@@ -5,16 +5,16 @@ label parameter_1_1:
     menu:
         "Choose a Dominant Personality Trait"
 
-        "Cunning":
+        "Cunning, stunning and brave":
             $ person_type1 += 1
             jump parameter_2_1
-        "Deceitful":
+        "Deceitful and manipulative when it comes to competitive board games":
             $ person_type2 += 1
             jump parameter_2_1
-        "Aggressive":
+        "Aggressive towards people who don't like their favorite color which happens to be a shade of grey":
             $ person_type1 += 1
             jump parameter_2_1
-        "Naieve":
+        "Naieve about air travel, but very knowledgeable about the history of Ireland.":
             $ person_type2 += 1
             jump parameter_2_1
 
@@ -22,15 +22,15 @@ label parameter_2_1:
     menu:
         "How sociable is this person?"
 
-        "Eventually Divorced":
+        "Eventually divorced member of a commune that only eats raw food.":
             $ person_type2 += 1
             jump parameter_3_1
 
-        "Married with Children that Hate Them":
+        "Married with children that seem to hate them, although the children are just experiencing teen angst.":
             $ person_type2 += 1
             jump parameter_3_1
 
-        "Sociopathic and Charming":
+        "Sociopathic and charming.":
             $ person_type2 += 1
             jump parameter_3_1
 
@@ -38,10 +38,10 @@ label parameter_3_1:
     menu:
         "Is this person physically active?"
 
-        "Somewhat":
+        "More than the average little league coach, but less than the average little league player":
             $ person_type1 += 1
 
-        "No":
+        "Not at all unless it is the beginning of January due to a New Year's resolution":
             $ person_type2 += 1
 
     "Calculating data..."
